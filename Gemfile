@@ -36,12 +36,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'carrierwave', '0.10.0'
 gem 'mini_magick', '3.8.0'
 
+# Pagination
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-  
+  # Used for debugging and finding out what is in the params hash
   gem 'pry'
 end
 
