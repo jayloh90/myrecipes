@@ -41,14 +41,14 @@ gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 
 # Fog for Production AWS Bucket Storage
-gem 'fog'
+gem 'fog', '1.36.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-  # Used for debugging and finding out what is in the params hash
+  # Used for debugging and finding out what ibunds in the params hash
   gem 'pry'
 end
 
